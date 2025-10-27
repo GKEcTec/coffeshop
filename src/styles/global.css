@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @theme {
-    --default-font-family: "Outfit", sans-serif;
-
+    --font-sans: "Outfit", sans-serif;
+    
         --color-coffee-50: #fcf8ee;
         --color-coffee-100: #ebe7de;
         --color-coffee-200: #ead59d;
@@ -26,4 +26,8 @@
     height: var(--icon-size);
     display:block;
     margin-inline:auto;
+}
+
+@utility font-secondary {
+    font-family: "PT Sans", sans-serif;
 }
